@@ -1,0 +1,30 @@
+# generic ignores
+bin
+target
+build
+.DS_Store
+classes
+
+# eclipse
+.classpath
+.project
+.settings
+.metadata
+.externalToolBuilders
+*.launch
+
+# intellij
+.idea
+*.iml
+
+# Gradle
+.gradle
+
+node_modules
+src/coverage
+src/main/resources/static/.sass-cache
+src/main/resources/static/js/libs/angular
+src/main/resources/static/js/libs/angular-growl-v2
+.sass-cache
+*.log
+.vscode/
